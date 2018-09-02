@@ -22,13 +22,16 @@ DataWig requires:
 - scikit-learn
 
 ## Installation with pip
+
+_Note that Ubuntu users have to use `pip3` instead of `pip` during the installation._
+
 ### CPU
 ```bash
 > pip install datawig
 ```
 
 ### GPU
-If you want to run DataWig on a GPU you need to make sure your version of Apache MXNet Incubating contains the GPU
+If you want to run DataWig on a GPU you need to make sure your version of Apache MXNet contains the GPU
 bindings.
 Depending on your version of CUDA, you can do this by running the following:
 
